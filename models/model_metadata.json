@@ -39,5 +39,5 @@
     ],
     "selection_metric": "Mean cross-validation ROC-AUC",
     "selection_score": 0.9024182484182486,
-    "created_at_utc": "2026-10-11T15:36:02.210066+00:00"
+    "created_at_utc": "2026-10-20T15:22:53.008757+00:00"
 }

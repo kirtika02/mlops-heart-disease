@@ -1,13 +1,12 @@
+
 import sys
 from pathlib import Path
 
-# Add the project root (/content) to Python's import path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT))
 
-from fastapi.testclient import TestClient
-
-from app import app
+from fastapi.testclient import TestClient  # noqa: E402
+from app import app  # noqa: E402
 
 client = TestClient(app)
 

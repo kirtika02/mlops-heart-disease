@@ -1,0 +1,12 @@
+
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.git/
+.github/
+mlruns/
+mlflow_data/
+.ipynb_checkpoints/
+*.pyc
+.env
